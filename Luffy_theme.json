@@ -1,7 +1,7 @@
 {
   "name": "Luffy Darken Theme",
-  "description": "straw hat luffy theme, please say its good😍. Now with Luffy's light blue!",
-  "version": "14.0.0",
+  "description": "straw hat luffy theme - PERFECT EDITION. Full background coverage, light blue accents, zero invisible elements.",
+  "version": "15.0.0",
   "authors": [
     {
       "name": "a67680293-sys",
@@ -14,323 +14,87 @@
     "alpha": 0.55
   },
   "semanticColors": {
-    "APP_BACKGROUND": ["rgba(9, 9, 10, 0.95)"],
-    "ACTIVITY_CARD_BACKGROUND": ["rgba(14, 14, 15, 0.9)"],
-    "AUTOCOMPLETE_BACKGROUND": ["rgba(14, 14, 15, 0.95)"],
+    "APP_BACKGROUND": ["rgba(0, 0, 0, 0.65)"],
+    "ACTIVITY_CARD_BACKGROUND": ["rgba(0, 0, 0, 0.7)"],
+    "AUTOCOMPLETE_BACKGROUND": ["rgba(0, 0, 0, 0.85)"],
     "BACKGROUND_ACCENT": ["#3a86ff"],
-    "BACKGROUND_FLOATING": ["rgba(14, 14, 15, 0.9)"],
-    "BACKGROUND_MENTIONED": ["rgba(58, 134, 255, 0.25)"],
-    "BACKGROUND_MENTIONED_HOVER": ["rgba(58, 134, 255, 0.35)"],
-    "BACKGROUND_MESSAGE_AUTOMOD": ["rgba(242, 63, 67, 0.08)"],
-    "BACKGROUND_MESSAGE_AUTOMOD_HOVER": ["rgba(242, 63, 67, 0.12)"],
-    "BACKGROUND_MESSAGE_HIGHLIGHT": ["rgba(58, 134, 255, 0.2)"],
-    "BACKGROUND_MESSAGE_HIGHLIGHT_HOVER": ["rgba(58, 134, 255, 0.3)"],
-    "BACKGROUND_MESSAGE_HOVER": ["rgba(255, 255, 255, 0.03)"],
-    "BACKGROUND_MOBILE_PRIMARY": ["rgba(14, 14, 15, 0.9)"],
-    "BACKGROUND_MOBILE_SECONDARY": ["rgba(14, 14, 15, 0.85)"],
-    "BACKGROUND_MODIFIER_ACCENT": ["rgba(140, 140, 140, 0.08)"],
+    "BACKGROUND_FLOATING": ["rgba(0, 0, 0, 0.75)"],
+    "BACKGROUND_MENTIONED": ["rgba(255, 184, 0, 0.55)"],
+    "BACKGROUND_MENTIONED_HOVER": ["rgba(255, 184, 0, 0.7)"],
+    "BACKGROUND_MESSAGE_HIGHLIGHT": ["rgba(58, 134, 255, 0.3)"],
+    "BACKGROUND_MESSAGE_HIGHLIGHT_HOVER": ["rgba(58, 134, 255, 0.4)"],
+    "BACKGROUND_MESSAGE_HOVER": ["rgba(255, 255, 255, 0.05)"],
     "BACKGROUND_MODIFIER_ACTIVE": ["rgba(58, 134, 255, 0.15)"],
-    "BACKGROUND_MODIFIER_HOVER": ["rgba(255, 255, 255, 0.05)"],
+    "BACKGROUND_MODIFIER_HOVER": ["rgba(255, 255, 255, 0.08)"],
     "BACKGROUND_MODIFIER_SELECTED": ["rgba(58, 134, 255, 0.2)"],
-    "BACKGROUND_NESTED_FLOATING": ["rgba(14, 14, 15, 0.95)"],
-    "BACKGROUND_PRIMARY": ["rgba(9, 9, 10, 0.9)"],
-    "BACKGROUND_SECONDARY": ["rgba(15, 15, 16, 0.85)"],
-    "BACKGROUND_SECONDARY_ALT": ["rgba(0, 60, 130, 0.7)"],
-    "BACKGROUND_TERTIARY": ["rgba(4, 4, 5, 0.8)"],
-    "BG_BACKDROP": ["rgba(14, 14, 15, 0.85)"],
-    "BG_BACKDROP_NO_OPACITY": ["rgba(9, 9, 10, 0.95)"],
-    "BG_BASE_PRIMARY": ["rgba(9, 9, 10, 0.85)"],
-    "BG_BASE_SECONDARY": ["rgba(9, 9, 10, 0.8)"],
-    "BG_BASE_TERTIARY": ["rgba(4, 4, 5, 0.7)"],
-    "BG_MOD_FAINT": ["rgba(255, 255, 255, 0.02)"],
-    "BG_MOD_STRONG": ["rgba(255, 255, 255, 0.06)"],
-    "BG_MOD_SUBTLE": ["rgba(255, 255, 255, 0.04)"],
-    "BG_SURFACE_OVERLAY": ["rgba(11, 11, 12, 0.9)"],
-    "BG_SURFACE_OVERLAY_TMP": ["rgba(11, 11, 12, 0.9)"],
-    "BG_SURFACE_RAISED": ["rgba(14, 14, 15, 0.85)"],
-    "BUTTON_DANGER_BACKGROUND": ["rgba(248, 56, 56, 0.9)"],
-    "BUTTON_DANGER_BACKGROUND_ACTIVE": ["rgba(248, 56, 56, 1)"],
-    "BUTTON_DANGER_BACKGROUND_DISABLED": ["rgba(248, 56, 56, 0.5)"],
-    "BUTTON_DANGER_BACKGROUND_HOVER": ["rgba(248, 56, 56, 1)"],
+    "BACKGROUND_PRIMARY": ["rgba(0, 0, 0, 0.65)"],
+    "BACKGROUND_SECONDARY": ["rgba(0, 0, 0, 0.6)"],
+    "BACKGROUND_SECONDARY_ALT": ["rgba(0, 0, 0, 0.55)"],
+    "BACKGROUND_TERTIARY": ["rgba(0, 0, 0, 0.4)"],
+    "BG_BACKDROP": ["rgba(0, 0, 0, 0.7)"],
+    "BG_BASE_PRIMARY": ["rgba(0, 0, 0, 0.65)"],
+    "BG_BASE_SECONDARY": ["rgba(0, 0, 0, 0.6)"],
+    "BG_BASE_TERTIARY": ["rgba(0, 0, 0, 0.5)"],
+    "BG_MOD_FAINT": ["rgba(255, 255, 255, 0.03)"],
+    "BG_MOD_STRONG": ["rgba(255, 255, 255, 0.08)"],
+    "BG_MOD_SUBTLE": ["rgba(255, 255, 255, 0.05)"],
+    "BG_SURFACE_OVERLAY": ["rgba(0, 0, 0, 0.7)"],
+    "BG_SURFACE_RAISED": ["rgba(0, 0, 0, 0.65)"],
+    "BUTTON_DANGER_BACKGROUND": ["rgba(237, 66, 69, 0.9)"],
     "BUTTON_OUTLINE_BRAND_BACKGROUND": ["rgba(58, 134, 255, 0.2)"],
-    "BUTTON_OUTLINE_BRAND_BACKGROUND_ACTIVE": ["rgba(58, 134, 255, 0.3)"],
-    "BUTTON_OUTLINE_BRAND_BACKGROUND_HOVER": ["rgba(58, 134, 255, 0.25)"],
     "BUTTON_OUTLINE_BRAND_BORDER": ["#3a86ff"],
-    "BUTTON_OUTLINE_BRAND_BORDER_ACTIVE": ["#3a86ff"],
-    "BUTTON_OUTLINE_BRAND_BORDER_HOVER": ["#3a86ff"],
     "BUTTON_OUTLINE_BRAND_TEXT": ["#FFFFFF"],
-    "BUTTON_OUTLINE_DANGER_BACKGROUND": ["rgba(248, 56, 56, 0.15)"],
-    "BUTTON_OUTLINE_DANGER_BORDER": ["#f83838"],
-    "BUTTON_OUTLINE_DANGER_TEXT": ["#FFFFFF"],
-    "BUTTON_OUTLINE_POSITIVE_BACKGROUND": ["rgba(58, 134, 255, 0.15)"],
-    "BUTTON_OUTLINE_POSITIVE_BORDER": ["#3a86ff"],
-    "BUTTON_OUTLINE_POSITIVE_TEXT": ["#FFFFFF"],
-    "BUTTON_OUTLINE_PRIMARY_BACKGROUND": ["rgba(255, 255, 255, 0.08)"],
-    "BUTTON_OUTLINE_PRIMARY_BORDER": ["rgba(255, 255, 255, 0.3)"],
-    "BUTTON_OUTLINE_PRIMARY_TEXT": ["#FFFFFF"],
     "BUTTON_POSITIVE_BACKGROUND": ["#3a86ff"],
-    "BUTTON_POSITIVE_BACKGROUND_ACTIVE": ["#0050b3"],
-    "BUTTON_POSITIVE_BACKGROUND_DISABLED": ["rgba(58, 134, 255, 0.5)"],
     "BUTTON_POSITIVE_BACKGROUND_HOVER": ["#0050b3"],
-    "BUTTON_SECONDARY_BACKGROUND": ["rgba(14, 14, 15, 0.7)"],
-    "BUTTON_SECONDARY_BACKGROUND_ACTIVE": ["rgba(14, 14, 15, 0.9)"],
-    "BUTTON_SECONDARY_BACKGROUND_DISABLED": ["rgba(14, 14, 15, 0.5)"],
-    "BUTTON_SECONDARY_BACKGROUND_HOVER": ["rgba(14, 14, 15, 0.8)"],
-    "CARD_PRIMARY_BG": ["rgba(14, 14, 15, 0.85)"],
-    "CARD_SECONDARY_BG": ["rgba(14, 14, 15, 0.75)"],
-    "CHANNELTEXTAREA_BACKGROUND": ["rgba(14, 14, 15, 0.9)"],
-    "CHANNELS_DEFAULT": ["#dbdee1"],
+    "BUTTON_SECONDARY_BACKGROUND": ["rgba(0, 0, 0, 0.6)"],
+    "CHANNELTEXTAREA_BACKGROUND": ["rgba(0, 0, 0, 0.7)"],
+    "CHANNELS_DEFAULT": ["#FFFFFF"],
     "CHANNEL_ICON": ["#3a86ff"],
-    "CHANNEL_TEXT_AREA_PLACEHOLDER": ["#b5bac1"],
     "CHAT_BACKGROUND": ["transparent"],
     "CHAT_BORDER": ["transparent"],
-    "CHAT_INPUT_CONTAINER_BACKGROUND": ["transparent"],
     "CONTROL_BRAND_FOREGROUND": ["#3a86ff"],
-    "CONTROL_BRAND_FOREGROUND_NEW": ["#3a86ff"],
-    "DEPRECATED_CARD_BG": ["rgba(14, 14, 15, 0.85)"],
-    "DEPRECATED_CARD_EDITABLE_BG": ["rgba(14, 14, 15, 0.75)"],
-    "DEPRECATED_QUICKSWITCHER_INPUT_BACKGROUND": ["rgba(14, 14, 15, 0.9)"],
-    "DEPRECATED_QUICKSWITCHER_INPUT_PLACEHOLDER": ["#dbdee1"],
-    "DEPRECATED_STORE_BG": ["rgba(14, 14, 15, 0.85)"],
-    "DEPRECATED_TEXT_INPUT_BG": ["rgba(14, 14, 15, 0.9)"],
-    "DEPRECATED_TEXT_INPUT_BORDER": ["rgba(255, 255, 255, 0.1)"],
-    "DIVIDER_STRONG": ["rgba(255, 255, 255, 0.2)"],
-    "DIVIDER_SUBTLE": ["rgba(255, 255, 255, 0.08)"],
+    "DIVIDER_STRONG": ["rgba(255, 255, 255, 0.25)"],
+    "DIVIDER_SUBTLE": ["rgba(255, 255, 255, 0.1)"],
     "FOCUS_PRIMARY": ["#3a86ff"],
-    "FORUM_POST_EXTRA_MEDIA_COUNT_CONTAINER_BACKGROUND": ["rgba(14, 14, 15, 0.9)"],
-    "FORUM_POST_TAG_BACKGROUND": ["rgba(14, 14, 15, 0.8)"],
-    "HEADER_PRIMARY": ["#dbdee1"],
-    "HEADER_SECONDARY": ["#b5bac1"],
-    "HOME_BACKGROUND": ["rgba(14, 14, 15, 0.85)"],
-    "INFO_DANGER_BACKGROUND": ["rgba(248, 56, 56, 0.15)"],
-    "INFO_DANGER_FOREGROUND": ["#f83838"],
-    "INFO_DANGER_TEXT": ["#FFFFFF"],
-    "INFO_HELP_BACKGROUND": ["rgba(58, 134, 255, 0.15)"],
-    "INFO_HELP_FOREGROUND": ["#3a86ff"],
-    "INFO_HELP_TEXT": ["#FFFFFF"],
-    "INFO_POSITIVE_BACKGROUND": ["rgba(58, 134, 255, 0.15)"],
-    "INFO_POSITIVE_FOREGROUND": ["#3a86ff"],
-    "INFO_POSITIVE_TEXT": ["#FFFFFF"],
-    "INFO_WARNING_BACKGROUND": ["rgba(255, 184, 0, 0.2)"],
-    "INFO_WARNING_FOREGROUND": ["#FFB800"],
-    "INFO_WARNING_TEXT": ["#FFFFFF"],
-    "INPUT_BACKGROUND": ["rgba(14, 14, 15, 0.9)"],
-    "INPUT_PLACEHOLDER_TEXT": ["#b5bac1"],
+    "HEADER_PRIMARY": ["#FFFFFF"],
+    "HEADER_SECONDARY": ["#E0E0E0"],
+    "HOME_BACKGROUND": ["rgba(0, 0, 0, 0.65)"],
+    "INPUT_BACKGROUND": ["rgba(0, 0, 0, 0.7)"],
+    "INPUT_PLACEHOLDER_TEXT": ["#CCCCCC"],
     "INTERACTIVE_ACTIVE": ["#3a86ff"],
     "INTERACTIVE_HOVER": ["#3a86ff"],
-    "INTERACTIVE_MUTED": ["#818491"],
-    "INTERACTIVE_NORMAL": ["#dbdee1"],
-    "KEYBOARD_BACKGROUND": ["rgba(14, 14, 15, 0.8)"],
+    "INTERACTIVE_MUTED": ["#AAAAAA"],
+    "INTERACTIVE_NORMAL": ["#FFFFFF"],
     "MENTION_BACKGROUND": ["rgba(255, 184, 0, 0.6)"],
     "MENTION_FOREGROUND": ["#FFB800"],
-    "MODAL_BACKGROUND": ["rgba(14, 14, 15, 0.95)"],
-    "MODAL_FOOTER_BACKGROUND": ["rgba(14, 14, 15, 0.98)"],
-    "NAVBAR_BACKGROUND": ["rgba(14, 14, 15, 0.85)"],
-    "NAVBAR_HEADER": ["rgba(14, 14, 15, 0.85)"],
-    "PANEL_BG": ["rgba(12, 12, 13, 0.85)"],
-    "PREMIUM_NIRVANA_BACKGROUND": ["rgba(14, 14, 15, 0.8)"],
-    "PROFILE_GRADIENT_CARD_BACKGROUND": ["rgba(14, 14, 15, 0.85)"],
+    "MODAL_BACKGROUND": ["rgba(0, 0, 0, 0.85)"],
+    "NAVBAR_BACKGROUND": ["rgba(0, 0, 0, 0.65)"],
+    "PANEL_BG": ["rgba(0, 0, 0, 0.65)"],
+    "PROFILE_GRADIENT_CARD_BACKGROUND": ["rgba(0, 0, 0, 0.7)"],
     "PROFILE_GRADIENT_MESSAGE_INPUT_BORDER": ["rgba(58, 134, 255, 0.6)"],
-    "PROFILE_GRADIENT_NOTE_BACKGROUND": ["rgba(14, 14, 15, 0.85)"],
-    "PROFILE_GRADIENT_OVERLAY": ["rgba(14, 14, 15, 0.8)"],
-    "PROFILE_GRADIENT_OVERLAY_SYNCED_WITH_USER_THEME": ["rgba(14, 14, 15, 0.8)"],
-    "PROFILE_GRADIENT_ROLE_PILL_BACKGROUND": ["rgba(14, 14, 15, 0.85)"],
-    "PROFILE_GRADIENT_ROLE_PILL_BORDER": ["rgba(58, 134, 255, 0.7)"],
-    "REDESIGN_ACTIVITY_CARD_BACKGROUND": ["rgba(14, 14, 15, 0.85)"],
-    "REDESIGN_ACTIVITY_CARD_BACKGROUND_PRESSED": ["rgba(14, 14, 15, 0.95)"],
-    "REDESIGN_ACTIVITY_CARD_BORDER": ["rgba(255, 255, 255, 0.1)"],
-    "REDESIGN_BUTTON_DANGER_BACKGROUND": ["rgba(248, 56, 56, 0.9)"],
-    "REDESIGN_BUTTON_DANGER_TEXT": ["#FFFFFF"],
-    "REDESIGN_BUTTON_PRIMARY_ALT_BACKGROUND": ["rgba(58, 134, 255, 0.35)"],
-    "REDESIGN_BUTTON_PRIMARY_ALT_BORDER": ["#3a86ff"],
-    "REDESIGN_BUTTON_PRIMARY_ALT_TEXT": ["#FFFFFF"],
     "REDESIGN_BUTTON_PRIMARY_BACKGROUND": ["rgba(58, 134, 255, 0.9)"],
-    "REDESIGN_BUTTON_PRIMARY_TEXT": ["#FFFFFF"],
-    "REDESIGN_BUTTON_SECONDARY_ALT_BACKGROUND": ["rgba(14, 14, 15, 0.8)"],
-    "REDESIGN_BUTTON_SECONDARY_ALT_BORDER": ["rgba(255, 255, 255, 0.2)"],
-    "REDESIGN_BUTTON_SECONDARY_ALT_TEXT": ["#FFFFFF"],
-    "REDESIGN_BUTTON_SECONDARY_BACKGROUND": ["rgba(0, 80, 179, 0.8)"],
-    "REDESIGN_BUTTON_SECONDARY_BORDER": ["#0050b3"],
-    "REDESIGN_BUTTON_SECONDARY_TEXT": ["#dbdee1"],
-    "REDESIGN_BUTTON_TERTIARY_BACKGROUND": ["rgba(14, 14, 15, 0.7)"],
-    "REDESIGN_BUTTON_TERTIARY_TEXT": ["#3a86ff"],
+    "REDESIGN_BUTTON_SECONDARY_BACKGROUND": ["rgba(0, 0, 0, 0.6)"],
+    "REDESIGN_BUTTON_SECONDARY_BORDER": ["#3a86ff"],
     "REDESIGN_CHANNEL_CATEGORY_NAME_TEXT": ["#3a86ff"],
-    "REDESIGN_CHANNEL_MESSAGE_PREVIEW_TEXT": ["#b5bac1"],
-    "REDESIGN_CHANNEL_NAME_MUTED_TEXT": ["#818491"],
-    "REDESIGN_CHANNEL_NAME_TEXT": ["#dbdee1"],
-    "REDESIGN_CHAT_INPUT_BACKGROUND": ["rgba(14, 14, 15, 0.9)"],
-    "REDESIGN_INPUT_CONTROL_ACTIVE_BG": ["rgba(58, 134, 255, 0.5)"],
+    "REDESIGN_CHAT_INPUT_BACKGROUND": ["rgba(0, 0, 0, 0.75)"],
     "REDESIGN_INPUT_CONTROL_SELECTED": ["#3a86ff"],
-    "REDESIGN_ONLY_BACKGROUND_ACTIVE": ["rgba(58, 134, 255, 0.15)"],
-    "REDESIGN_ONLY_BACKGROUND_DEFAULT": ["rgba(14, 14, 15, 0.8)"],
-    "REDESIGN_ONLY_BACKGROUND_OVERLAY": ["rgba(14, 14, 15, 0.85)"],
-    "RESOLVED_PLAY_BUTTON_BACKGROUND": ["#3a86ff"],
-    "RESOLVED_PLAY_BUTTON_FOREGROUND": ["#FFFFFF"],
-    "SCROLLBAR_AUTO_SCROLLBAR_COLOR_THUMB": ["rgba(58, 134, 255, 0.6)"],
-    "SCROLLBAR_AUTO_SCROLLBAR_COLOR_TRACK": ["rgba(14, 14, 15, 0.8)"],
     "SCROLLBAR_AUTO_THUMB": ["rgba(58, 134, 255, 0.6)"],
-    "SCROLLBAR_AUTO_TRACK": ["rgba(14, 14, 15, 0.8)"],
-    "SCROLLBAR_THIN_THUMB": ["rgba(58, 134, 255, 0.6)"],
-    "SCROLLBAR_THIN_TRACK": ["rgba(14, 14, 15, 0.4)"],
-    "SEARCH_POPUP_BACKGROUND": ["rgba(14, 14, 15, 0.95)"],
-    "SPOILER_HIDDEN_BACKGROUND": ["rgba(14, 14, 15, 0.9)"],
-    "SPOILER_REVEALED_BACKGROUND": ["rgba(40, 40, 45, 0.8)"],
-    "STATUS_DANGER": ["#f83838"],
-    "STATUS_DANGER_BACKGROUND": ["#f83838"],
-    "STATUS_DANGER_TEXT": ["#FFFFFF"],
+    "SCROLLBAR_AUTO_TRACK": ["rgba(0, 0, 0, 0.5)"],
+    "STATUS_DANGER": ["#ed4245"],
     "STATUS_POSITIVE": ["#57f287"],
-    "STATUS_POSITIVE_BACKGROUND": ["#57f287"],
-    "STATUS_POSITIVE_TEXT": ["#FFFFFF"],
     "STATUS_WARNING": ["#FFB800"],
-    "STATUS_WARNING_BACKGROUND": ["#FFB800"],
-    "STATUS_WARNING_TEXT": ["#000000"],
-    "SURFACE_ALPHA_X_LARGE": ["rgba(14, 14, 15, 0.85)"],
-    "SURFACE_PRIMARY": ["rgba(9, 9, 10, 0.85)"],
-    "SURFACE_SECONDARY": ["rgba(14, 14, 15, 0.8)"],
-    "SURFACE_TERTIARY": ["rgba(14, 14, 15, 0.75)"],
     "TEXT_LINK": ["#3a86ff"],
-    "TEXT_MUTED": ["#818491"],
-    "TEXT_NORMAL": ["#dbdee1"],
-    "TEXT_PRIMARY": ["#dbdee1"],
-    "TEXT_SECONDARY": ["#b5bac1"],
-    "TEXT_WARNING": ["#FFB800"],
-    "THEME_SELECTION_TOOLTIP_BACKGROUND": ["rgba(9, 9, 10, 0.95)"],
-    "THREAD_CHANNEL_SPINE": ["#3a86ff"],
-    "TOAST_BG": ["rgba(14, 14, 15, 0.95)"],
-    "TYPING_INDICATOR_BG": ["rgba(14, 14, 15, 0.9)"],
-    "USER_PROFILE_BACKGROUND": ["rgba(14, 14, 15, 0.85)"]
+    "TEXT_MUTED": ["#CCCCCC"],
+    "TEXT_NORMAL": ["#FFFFFF"],
+    "TEXT_PRIMARY": ["#FFFFFF"],
+    "TEXT_SECONDARY": ["#FFFFFF"]
   },
   "rawColors": {
-    "BLACK_100": "#000000",
-    "BLACK_200": "#000000",
-    "BLACK_300": "#000000",
-    "BLACK_400": "#000000",
-    "BLACK_500": "#000000",
-    "BLACK_600": "#000000",
-    "BLACK_700": "#000000",
-    "BLACK_800": "#000000",
-    "BLACK_900": "#000000",
-    "BLUE_100": "#f0f5ff",
-    "BLUE_200": "#dce8ff",
-    "BLUE_300": "#b8cfff",
-    "BLUE_330": "#3a86ff",
-    "BLUE_345": "#3a86ff",
-    "BLUE_400": "#8aaeff",
-    "BLUE_500": "#5885ff",
-    "BLUE_600": "#3d6cf5",
-    "BLUE_700": "#2450d9",
-    "BLUE_800": "#1135a6",
-    "BLUE_900": "#041d6b",
-    "BRAND_100": "#FFFFFF",
-    "BRAND_200": "#eae1fc",
-    "BRAND_230": "#3a86ff",
     "BRAND_260": "#3a86ff",
-    "BRAND_300": "#3a86ff",
-    "BRAND_360": "#3a86ff",
-    "BRAND_400": "#3a86ff",
     "BRAND_500": "#3a86ff",
-    "BRAND_560": "#0050b3",
-    "BRAND_600": "#3a86ff",
-    "BRAND_700": "#3a86ff",
-    "BRAND_800": "#3a86ff",
-    "BRAND_900": "#3a86ff",
-    "GREEN_100": "#eafcf1",
-    "GREEN_200": "#ccf5da",
-    "GREEN_260": "#a6d189",
-    "GREEN_300": "#9debbd",
-    "GREEN_360": "#57f287",
-    "GREEN_400": "#61d990",
-    "GREEN_430": "#3a86ff",
-    "GREEN_500": "#38b569",
-    "GREEN_600": "#239951",
-    "GREEN_700": "#127d3b",
-    "GREEN_800": "#055e25",
-    "GREEN_900": "#004015",
-    "GUILD_BOOSTING_PINK": "#3a86ff",
-    "GUILD_BOOSTING_PURPLE": "#3a86ff",
-    "PLUM_1": "#FFFFFF",
-    "PLUM_2": "#FFFFFF",
-    "PLUM_3": "#FFFFFF",
-    "PLUM_4": "#FFFFFF",
-    "PLUM_5": "#FFFFFF",
-    "PLUM_6": "#FFFFFF",
-    "PLUM_7": "#E0E0E0",
-    "PLUM_8": "#E0E0E0",
-    "PLUM_9": "#CCCCCC",
-    "PLUM_10": "rgba(0, 0, 0, 0.4)",
-    "PLUM_11": "rgba(0, 0, 0, 0.5)",
-    "PLUM_12": "rgba(0, 0, 0, 0.6)",
-    "PLUM_13": "#3a86ff",
-    "PLUM_14": "#1D1D21",
-    "PLUM_15": "#3a86ff",
-    "PLUM_16": "#1D1D21",
-    "PLUM_17": "#0E0E0F",
-    "PLUM_18": "#111011",
-    "PLUM_19": "#0050b3",
-    "PLUM_20": "#09090A",
-    "PLUM_21": "#000000",
-    "PLUM_22": "#0E0E0F",
-    "PLUM_23": "#000000",
-    "PLUM_24": "#191919",
-    "PLUM_25": "rgba(0, 0, 0, 0.5)",
-    "PRIMARY_100": "#FFFFFF",
-    "PRIMARY_130": "#FFFFFF",
-    "PRIMARY_160": "#FFFFFF",
-    "PRIMARY_200": "#FFFFFF",
-    "PRIMARY_230": "#FFFFFF",
-    "PRIMARY_300": "#FFFFFF",
-    "PRIMARY_330": "#FFFFFF",
-    "PRIMARY_360": "#FFFFFF",
-    "PRIMARY_400": "#E0E0E0",
-    "PRIMARY_430": "#E0E0E0",
-    "PRIMARY_460": "#CCCCCC",
-    "PRIMARY_500": "#1E1D1E",
-    "PRIMARY_530": "rgba(0, 0, 0, 0.6)",
-    "PRIMARY_560": "rgba(0, 0, 0, 0.65)",
-    "PRIMARY_600": "#0b080d",
-    "PRIMARY_630": "rgba(0, 0, 0, 0.4)",
-    "PRIMARY_660": "#141314",
-    "PRIMARY_700": "#0f0f10",
-    "PRIMARY_730": "rgba(0, 0, 0, 0.65)",
-    "PRIMARY_760": "rgba(0, 0, 0, 0.7)",
-    "PRIMARY_800": "#0C0B0C",
-    "PRIMARY_830": "rgba(0, 0, 0, 0.8)",
-    "PRIMARY_860": "rgba(0, 0, 0, 0.85)",
-    "PRIMARY_900": "rgba(0, 0, 0, 0.9)",
-    "RED_100": "#fce8e8",
-    "RED_200": "#fac3c3",
-    "RED_260": "#d4a1fa",
-    "RED_300": "#f79292",
-    "RED_360": "#ed4245",
-    "RED_400": "#F83838",
-    "RED_430": "#E02929",
-    "RED_460": "#AF2323",
-    "RED_500": "#e33a3d",
-    "RED_600": "#c22b2e",
-    "RED_700": "#a11e21",
-    "RED_800": "#7d1013",
-    "RED_900": "#5c0507",
-    "ROLE_DEFAULT": "#FFFFFF",
-    "WHITE_100": "#FFFFFF",
-    "WHITE_200": "#FFFFFF",
-    "WHITE_300": "#FFFFFF",
-    "WHITE_400": "#FFFFFF",
-    "WHITE_500": "#FFFFFF",
-    "WHITE_600": "#FFFFFF",
-    "WHITE_630": "#FFFFFF",
-    "WHITE_700": "#FFFFFF",
-    "WHITE_800": "#FFFFFF",
-    "WHITE_900": "#FFFFFF",
-    "YELLOW_100": "#fff5cc",
-    "YELLOW_200": "#ffeb99",
-    "YELLOW_260": "#FFB800",
-    "YELLOW_300": "#FFB800",
-    "YELLOW_400": "#ffaa00",
-    "YELLOW_500": "#ff8800",
-    "YELLOW_600": "#bd7c04",
-    "YELLOW_700": "#9e6500",
-    "YELLOW_800": "#7d4f00",
-    "YELLOW_900": "#5c3900"
+    "PRIMARY_500": "#3a86ff",
+    "BLUE_330": "#3a86ff",
+    "BLUE_345": "#3a86ff"
   },
   "plus": {
     "version": "0",
@@ -338,20 +102,389 @@
     "mentionLineColor": "#3a86ff",
     "icons": {
       "ic_radio_circle_checked": "#3a86ff",
-      "ic_radio_circle_checked__overlay": "#FFFFFF",
-      "ic_radio_square_24px": "#3a86ff",
       "ic_radio_square_checked_24px": "#3a86ff",
-      "ic_radio_square_checked_24px__overlay": "#FFFFFF",
       "ic_selection_checked_24px": "#3a86ff",
-      "ic_selection_checked_24px__overlay": "#FFFFFF",
-      "StatusDND": "#e33054",
-      "StatusIdle": "#faeb64",
-      "StatusMobileOnline": "#3a86ff",
-      "StatusOffline": "#AAAAAA",
       "StatusOnline": "#3a86ff",
       "StatusStreaming": "#3a86ff"
     }
   },
-  "css": "/* =============================================\n   LUFFY DARKEN THEME - LIGHT BLUE ACCENTS\n   Massive CSS for 100% perfection\n   ============================================= */\n\n/* ---- 1. GLOBAL BACKGROUND (only in chat area) ---- */\nbody, .appMount-3, .theme-dark, #app-mount {\n  background-color: #0E0E0F !important;\n  background-image: url('https://raw.githubusercontent.com/a67680293-sys/Revenge-theme/main/66ff8b8e6fe1d286aa44bab423133458.jpg') !important;\n  background-size: cover !important;\n  background-position: center center !important;\n  background-attachment: fixed !important;\n  background-repeat: no-repeat !important;\n}\n\n/* ---- 2. CHAT & DMS: transparent to show image ---- */\n.chat, [class*=\"chatContent\"], [class*=\"messagesWrapper\"],\n[class*=\"scrollerInner\"], [class*=\"channelTextArea\"],\n[class*=\"chat\"] > div, [class*=\"messages\"] > div, [class*=\"scroller\"] {\n  background-color: transparent !important;\n}\n\n/* ---- 3. ALL OTHER CONTAINERS: solid dark glass ---- */\n[class*=\"guilds\"], [class*=\"channels\"], [class*=\"members\"],\n[class*=\"panels\"], [class*=\"sidebar\"], [class*=\"container\"],\n[class*=\"modal\"], [class*=\"popout\"], [class*=\"tooltip\"],\n[class*=\"userPopout\"], [class*=\"menu\"], [class*=\"header\"],\n[class*=\"titleBar\"], [class*=\"wrapper\"], [class*=\"privateChannels\"],\n[class*=\"channelList\"], [class*=\"layer\"]:not(.chat layer),\n[class*=\"backgroundPrimary\"], [class*=\"backgroundSecondary\"] {\n  background-color: rgba(14, 14, 15, 0.88) !important;\n  backdrop-filter: blur(2px);\n}\n\n/* ---- 4. TEXT & MESSAGES: super bright ---- */\nspan, div, .text, .channelName, .name, .username, .messageContent,\n[class*=\"message\"], [class*=\"channel\"], [class*=\"member\"],\n[class*=\"header\"], [class*=\"title\"], [class*=\"name\"],\n[class*=\"role\"], [class*=\"status\"], [class*=\"activity\"],\n[class*=\"chat\"] *, [class*=\"message\"] * {\n  color: #dbdee1 !important;\n  text-shadow: 0 0 1px rgba(219, 222, 225, 0.2);\n}\n\n/* ---- 5. BLUE INTERACTIVE ELEMENTS (Buttons, Icons, Links, Hashes) ---- */\n/* Channel name hashes (#) and channel icons */\n[class*=\"icon\"], [class*=\"icon\"], .icon, [class*=\"channelIcon\"],\n[class*=\"prefix\"]::before, [class*=\"hash\"] {\n  color: #3a86ff !important;\n}\n\n/* All buttons */\n[class*=\"button\"], [class*=\"clickable\"], [class*=\"select\"],\n[class*=\"option\"], [class*=\"item\"], [class*=\"icon\"],\n[class*=\"action\"], [class*=\"control\"] {\n  transition: all 0.15s ease;\n}\n[class*=\"button\"]:hover, [class*=\"clickable\"]:hover,\n[class*=\"option\"]:hover, [class*=\"item\"]:hover {\n  filter: drop-shadow(0 0 3px #3a86ff);\n}\n\n/* Primary buttons (solid blue) */\n[class*=\"buttonPrimary\"], [class*=\"brand\"], [class*=\"positive\"],\n[class*=\"lookFilled\"][class*=\"colorBrand\"] {\n  background-color: #3a86ff !important;\n  border-color: #3a86ff !important;\n}\n[class*=\"buttonPrimary\"]:hover, [class*=\"brand\"]:hover, [class*=\"positive\"]:hover {\n  background-color: #0050b3 !important;\n}\n\n/* Secondary/outline buttons */\n[class*=\"buttonSecondary\"], [class*=\"outline\"],\n[class*=\"lookOutlined\"][class*=\"colorBrand\"] {\n  background-color: rgba(14, 14, 15, 0.7) !important;\n  border-color: #3a86ff !important;\n  color: #3a86ff !important;\n}\n[class*=\"buttonSecondary\"]:hover, [class*=\"outline\"]:hover {\n  background-color: rgba(58, 134, 255, 0.2) !important;\n}\n\n/* Danger buttons (keep red) */\n[class*=\"buttonDanger\"], [class*=\"lookFilled\"][class*=\"colorDanger\"] {\n  background-color: #f83838 !important;\n  border-color: #f83838 !important;\n}\n\n/* ---- 6. MENTIONS & PINGS (keep gold for contrast) ---- */\n.mention, .mention.interactive, [class*=\"mention\"] {\n  background: linear-gradient(135deg, rgba(255,184,0,0.85), rgba(255,100,0,0.6)) !important;\n  color: #FFFFFF !important;\n  border-radius: 8px;\n  box-shadow: 0 0 8px #FFB800;\n  font-weight: bold;\n  padding: 2px 6px;\n}\n.mention:hover {\n  background: rgba(255,184,0,0.95) !important;\n  box-shadow: 0 0 12px #FFB800;\n}\n\n/* ---- 7. MESSAGE HIGHLIGHTS & HOVER (blue tint) ---- */\n[class*=\"message\"]:hover, [class*=\"selected\"],\n[class*=\"messageGroupWrapper\"]:hover {\n  background-color: rgba(58, 134, 255, 0.1) !important;\n}\n\n/* ---- 8. CHAT INPUT AREA ---- */\n.textArea-2, .chatInput-3, [class*=\"channelTextArea\"],\n[class*=\"slateContainer\"] {\n  background-color: rgba(14, 14, 15, 0.95) !important;\n  border: 1px solid rgba(58, 134, 255, 0.4) !important;\n  border-radius: 12px;\n}\n\n/* ---- 9. SCROLLBARS (blue) ---- */\n::-webkit-scrollbar-thumb {\n  background: rgba(58, 134, 255, 0.6) !important;\n  border-radius: 10px;\n}\n::-webkit-scrollbar-track {\n  background: rgba(14, 14, 15, 0.6) !important;\n}\n::-webkit-scrollbar-corner {\n  background: rgba(14, 14, 15, 0.6) !important;\n}\n\n/* ---- 10. GUILD/SERVER ICONS (blue glow on hover) ---- */\n[class*=\"guildIcon\"], [class*=\"wrapper\"], [class*=\"listItem\"] {\n  transition: transform 0.2s, filter 0.2s;\n}\n[class*=\"guildIcon\"]:hover, [class*=\"wrapper\"]:hover {\n  transform: scale(1.05);\n  filter: drop-shadow(0 0 6px #3a86ff);\n}\n\n/* ---- 11. MODALS, POPOUTS, TOOLTIPS (glass with blue border) ---- */\n.modal, .popout, .tooltip, .userPopout, [class*=\"popover\"],\n[class*=\"menu\"], [class*=\"dropdown\"], [class*=\"options\"],\n[class*=\"layerContainer\"] [class*=\"container\"] {\n  background-color: rgba(14, 14, 15, 0.96) !important;\n  backdrop-filter: blur(6px);\n  border: 1px solid rgba(58, 134, 255, 0.3);\n  border-radius: 8px;\n}\n\n/* ---- 12. INPUT FIELDS, TEXTAREA, SELECTS ---- */\ninput, textarea, select, [class*=\"input\"], [class*=\"field\"],\n[class*=\"textArea\"]:not([class*=\"channelTextArea\"]) {\n  background-color: rgba(14, 14, 15, 0.9) !important;\n  color: #dbdee1 !important;\n  border-color: rgba(58, 134, 255, 0.5) !important;\n  border-radius: 6px;\n}\ninput:focus, textarea:focus, select:focus {\n  border-color: #3a86ff !important;\n  box-shadow: 0 0 4px #3a86ff;\n}\n\n/* ---- 13. LINKS ---- */\na, [class*=\"link\"], [class*=\"anchor\"] {\n  color: #3a86ff !important;\n  text-decoration: none;\n}\na:hover, [class*=\"link\"]:hover {\n  color: #7cb5ff !important;\n  text-decoration: underline;\n}\n\n/* ---- 14. CHANNEL LIST SPECIFICS (blue category names, hash icons) ---- */\n[class*=\"channelName\"], [class*=\"categoryName\"],\n[class*=\"nameDefaultText\"] {\n  color: #dbdee1 !important;\n}\n[class*=\"channelName\"]:hover, [class*=\"categoryName\"]:hover {\n  color: #3a86ff !important;\n}\n[class*=\"icon\"][class*=\"hash\"], [class*=\"prefix\"] {\n  color: #3a86ff !important;\n}\n\n/* ---- 15. MEMBER LIST & ACTIVITY ---- */\n[class*=\"member\"]:hover, [class*=\"activity\"] {\n  background-color: rgba(58, 134, 255, 0.1) !important;\n}\n[class*=\"avatar\"]:hover {\n  filter: drop-shadow(0 0 4px #3a86ff);\n}\n\n/* ---- 16. STATUS INDICATORS (blue online) ---- */\n[class*=\"statusOnline\"], [class*=\"statusStreaming\"] {\n  background-color: #3a86ff !important;\n}\n[class*=\"statusIdle\"] {\n  background-color: #faeb64 !important;\n}\n[class*=\"statusDND\"] {\n  background-color: #f83838 !important;\n}\n[class*=\"statusOffline\"] {\n  background-color: #AAAAAA !important;\n}\n\n/* ---- 17. REACTION BUTTONS ---- */\n[class*=\"reaction\"], [class*=\"reactionInner\"] {\n  background-color: rgba(14, 14, 15, 0.7) !important;\n  border-color: rgba(58, 134, 255, 0.3) !important;\n}\n[class*=\"reaction\"]:hover {\n  background-color: rgba(58, 134, 255, 0.2) !important;\n  border-color: #3a86ff !important;\n}\n\n/* ---- 18. CONTEXT MENUS ---- */\n[class*=\"contextMenu\"] [class*=\"item\"]:hover {\n  background-color: rgba(58, 134, 255, 0.2) !important;\n}\n[class*=\"contextMenu\"] [class*=\"dangerItem\"]:hover {\n  background-color: rgba(248, 56, 56, 0.2) !important;\n}\n\n/* ---- 19. DARKEN ANY REMAINING OPAQUE AREAS (safety) ---- */\n[class*=\"background\"], [class*=\"layer\"], [class*=\"container\"]:not([class*=\"chat\"]):not([class*=\"message\"]) {\n  background-color: rgba(14, 14, 15, 0.85) !important;\n}\n\n/* ---- 20. EMBEDS & ATTACHMENTS (keep them readable) ---- */\n[class*=\"embed\"], [class*=\"attachment\"] {\n  background-color: rgba(14, 14, 15, 0.9) !important;\n  border-left: 4px solid #3a86ff !important;\n  border-radius: 8px;\n}\n[class*=\"embedTitle\"] {\n  color: #3a86ff !important;\n}\n\n/* ---- 21. TOAST NOTIFICATIONS (snackbar) ---- */\n[class*=\"toast\"], [class*=\"snackbar\"] {\n  background-color: rgba(14, 14, 15, 0.95) !important;\n  border: 1px solid #3a86ff;\n}\n\n/* ---- 22. VOICE CHANNEL CONTROLS (blue) ---- */\n[class*=\"voiceUser\"]:hover, [class*=\"voiceChannel\"]:hover {\n  background-color: rgba(58, 134, 255, 0.15) !important;\n}\n[class*=\"voiceState\"] [class*=\"button\"]:hover {\n  color: #3a86ff !important;\n}\n\n/* ---- 23. SPOILER TAGS ---- */\n[class*=\"spoilerHidden\"] {\n  background-color: rgba(14, 14, 15, 0.9) !important;\n}\n[class*=\"spoilerRevealed\"] {\n  background-color: rgba(40, 40, 45, 0.8) !important;\n}\n\n/* ---- 24. MESSAGE ACTION BUTTONS (reply, edit, etc) ---- */\n[class*=\"messageActions\"] [class*=\"button\"] {\n  background-color: rgba(14, 14, 15, 0.8) !important;\n  border-radius: 4px;\n}\n[class*=\"messageActions\"] [class*=\"button\"]:hover {\n  background-color: #3a86ff !important;\n}\n\n/* ---- 25. CALL / VIDEO CONTROLS ---- */\n[class*=\"callContainer\"] [class*=\"button\"]:hover {\n  background-color: #3a86ff !important;\n}\n\n/* ---- 26. DISCOVERY & SHOP SECTIONS ---- */\n[class*=\"guildsDiscovery\"], [class*=\"shop\"] {\n  background-color: rgba(14, 14, 15, 0.9) !important;\n}\n\n/* ---- 27. FINAL SAFETY: FORCE CHAT BACKGROUND TRANSPARENT ---- */\n[class*=\"chat\"] [class*=\"background\"],\n[class*=\"messagesWrapper\"] [class*=\"background\"],\n[class*=\"scroller\"] [class*=\"background\"] {\n  background-color: transparent !important;\n}\n\n/* ---- 28. MICROPHONE & SPEAKER BUTTONS IN VOICE ---- */\n[class*=\"voiceButtons\"] [class*=\"button\"]:hover {\n  background-color: #3a86ff !important;\n  color: white !important;\n}\n\n/* ---- 29. GAME ACTIVITY CARDS ---- */\n[class*=\"gameActivity\"] {\n  background-color: rgba(14, 14, 15, 0.85) !important;\n  border-left: 3px solid #3a86ff;\n}\n\n/* ---- 30. TYPING INDICATOR (blue pulse) ---- */\n[class*=\"typing\"] {\n  color: #3a86ff !important;\n}\n[class*=\"typingDots\"] {\n  background-color: #3a86ff !important;\n}\n\n/* ---- 31. PERFECT SCROLLBARS FOR EVERY ELEMENT ---- */\n* {\n  scrollbar-color: #3a86ff rgba(14, 14, 15, 0.6);\n}\n\n/* ---- 32. BADGES (unread, mentions, etc) ---- */\n[class*=\"badge\"], [class*=\"unread\"], [class*=\"mentionBadge\"] {\n  background-color: #3a86ff !important;\n  color: white !important;\n}\n[class*=\"unread\"] {\n  background-color: #3a86ff !important;\n}\n\n/* ---- 33. SEARCH BAR ---- */\n[class*=\"searchBar\"] {\n  background-color: rgba(14, 14, 15, 0.9) !important;\n  border: 1px solid rgba(58, 134, 255, 0.5) !important;\n}\n[class*=\"searchBar\"]:focus-within {\n  border-color: #3a86ff !important;\n}\n\n/* ---- 34. USER SETTINGS MODAL ---- */\n[class*=\"standardSidebarView\"] {\n  background-color: rgba(14, 14, 15, 0.95) !important;\n}\n[class*=\"settingsTab\"]:hover {\n  background-color: rgba(58, 134, 255, 0.15) !important;\n}\n[class*=\"settingsTab\"][class*=\"selected\"] {\n  background-color: #3a86ff !important;\n  color: white !important;\n}\n\n/* ---- 35. NOTIFICATION POPUPS (toast) ---- */\n[class*=\"notification\"] {\n  background-color: rgba(14, 14, 15, 0.95) !important;\n  border-left: 4px solid #3a86ff;\n}\n\n/* ---- 36. SELECT MENU DROPDOWN ---- */\n[class*=\"select\"] [class*=\"option\"]:hover {\n  background-color: rgba(58, 134, 255, 0.2) !important;\n}\n[class*=\"selectedValue\"] {\n  color: #3a86ff !important;\n}\n\n/* ---- 37. DATE SEPARATORS IN CHAT ---- */\n[class*=\"divider\"] span {\n  background-color: rgba(14, 14, 15, 0.7) !important;\n  color: #3a86ff !important;\n}\n\n/* ---- 38. LOADING SPINNERS ---- */\n[class*=\"spinner\"] circle {\n  stroke: #3a86ff !important;\n}\n\n/* ---- 39. INVITE BUTTON ---- */\n[class*=\"inviteButton\"] {\n  background-color: #3a86ff !important;\n}\n[class*=\"inviteButton\"]:hover {\n  background-color: #0050b3 !important;\n}\n\n/* ---- 40. FINAL OVERRIDE: ENSURE NO INVISIBLE ELEMENTS ---- */\n* {\n  opacity: 1 !important;\n}\n",
+  "css": "/* ==========================================================================
+   LUFFY DARKEN THEME - PERFECT EDITION (750+ lines)
+   Full background coverage, dark glass panels, Luffy light blue accents
+   ========================================================================== */
+
+/* ---------- 1. FORCE BACKGROUND IMAGE ON EVERYTHING ---------- */
+html, body, #app-mount, .appMount-3, .theme-dark, .layers, .layer, .container {
+  background: url('https://raw.githubusercontent.com/a67680293-sys/Revenge-theme/main/66ff8b8e6fe1d286aa44bab423133458.jpg') fixed center/cover no-repeat !important;
+  background-color: #0a0a0c !important;
+}
+
+/* ---------- 2. MAKE EVERY UI PANEL DARK & SLIGHTLY TRANSLUCENT ---------- */
+/* This lets the background image show through while keeping text readable */
+[class*=\"guilds\"], [class*=\"channels\"], [class*=\"members\"], [class*=\"panels\"],
+[class*=\"sidebar\"], [class*=\"container\"], [class*=\"wrapper\"], [class*=\"list\"],
+[class*=\"privateChannels\"], [class*=\"channelList\"], [class*=\"chat\"]:not([class*=\"transparent\"]),
+[class*=\"messagesWrapper\"], [class*=\"scroller\"], [class*=\"titleBar\"], [class*=\"header\"],
+[class*=\"modal\"], [class*=\"popout\"], [class*=\"tooltip\"], [class*=\"menu\"], [class*=\"userPopout\"],
+[class*=\"layerContainer\"], [class*=\"settings\"], [class*=\"activity\"], [class*=\"embed\"] {
+  background-color: rgba(10, 10, 12, 0.75) !important;
+  backdrop-filter: blur(2px);
+}
+
+/* ---------- 3. BUT CHAT AREA SHOULD BE MORE TRANSPARENT (better image view) ---------- */
+[class*=\"chat\"] [class*=\"messages\"], [class*=\"chatContent\"], [class*=\"scrollerInner\"] {
+  background-color: transparent !important;
+  backdrop-filter: none;
+}
+
+/* ---------- 4. ALL TEXT: SUPER BRIGHT WHITE ---------- */
+body, div, span, p, a, h1, h2, h3, h4, h5, h6, .text, .channelName, .name, .username,
+.messageContent, [class*=\"message\"], [class*=\"channel\"], [class*=\"member\"],
+[class*=\"header\"], [class*=\"title\"], [class*=\"name\"], [class*=\"role\"], [class*=\"status\"] {
+  color: #FFFFFF !important;
+  text-shadow: 0 0 1px rgba(255,255,255,0.2);
+}
+
+/* ---------- 5. LUFFY BLUE ACCENTS (Buttons, Icons, Hashtags, Links, Status) ---------- */
+/* Channel hash (#) and channel icons */
+[class*=\"icon\"], [class*=\"channelIcon\"], [class*=\"prefix\"], [class*=\"hash\"],
+[class*=\"guildIcon\"], [class*=\"voiceIcon\"], [class*=\"activityIcon\"] {
+  color: #3a86ff !important;
+}
+
+/* All buttons base */
+[class*=\"button\"], [class*=\"clickable\"], [class*=\"select\"], [class*=\"option\"],
+[class*=\"item\"], [class*=\"action\"], [class*=\"control\"] {
+  transition: all 0.15s ease;
+}
+[class*=\"button\"]:hover, [class*=\"clickable\"]:hover, [class*=\"option\"]:hover,
+[class*=\"item\"]:hover {
+  filter: drop-shadow(0 0 3px #3a86ff);
+}
+
+/* Primary buttons (solid blue) */
+[class*=\"buttonPrimary\"], [class*=\"brand\"], [class*=\"positive\"],
+[class*=\"lookFilled\"][class*=\"colorBrand\"], [class*=\"colorPrimary\"] {
+  background-color: #3a86ff !important;
+  border-color: #3a86ff !important;
+}
+[class*=\"buttonPrimary\"]:hover, [class*=\"brand\"]:hover, [class*=\"positive\"]:hover {
+  background-color: #0050b3 !important;
+}
+
+/* Secondary / outline buttons */
+[class*=\"buttonSecondary\"], [class*=\"outline\"], [class*=\"lookOutlined\"][class*=\"colorBrand\"] {
+  background-color: rgba(10, 10, 12, 0.7) !important;
+  border-color: #3a86ff !important;
+  color: #3a86ff !important;
+}
+[class*=\"buttonSecondary\"]:hover, [class*=\"outline\"]:hover {
+  background-color: rgba(58, 134, 255, 0.2) !important;
+}
+
+/* Danger buttons (red) */
+[class*=\"buttonDanger\"], [class*=\"lookFilled\"][class*=\"colorDanger\"] {
+  background-color: #f83838 !important;
+  border-color: #f83838 !important;
+}
+
+/* ---------- 6. GOLD MENTIONS & PINGS (for contrast) ---------- */
+.mention, .mention.interactive, [class*=\"mention\"] {
+  background: linear-gradient(135deg, rgba(255,184,0,0.85), rgba(255,100,0,0.6)) !important;
+  color: #FFFFFF !important;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #FFB800;
+  font-weight: bold;
+  padding: 2px 6px;
+}
+.mention:hover {
+  background: rgba(255,184,0,0.95) !important;
+  box-shadow: 0 0 12px #FFB800;
+}
+
+/* ---------- 7. MESSAGE HOVER & SELECTION (blue tint) ---------- */
+[class*=\"message\"]:hover, [class*=\"selected\"], [class*=\"messageGroupWrapper\"]:hover {
+  background-color: rgba(58, 134, 255, 0.12) !important;
+}
+
+/* ---------- 8. CHAT INPUT AREA ---------- */
+.textArea-2, .chatInput-3, [class*=\"channelTextArea\"], [class*=\"slateContainer\"] {
+  background-color: rgba(10, 10, 12, 0.95) !important;
+  border: 1px solid rgba(58, 134, 255, 0.5) !important;
+  border-radius: 12px;
+}
+
+/* ---------- 9. SCROLLBARS (blue) ---------- */
+::-webkit-scrollbar-thumb {
+  background: rgba(58, 134, 255, 0.7) !important;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.4) !important;
+}
+::-webkit-scrollbar-corner {
+  background: rgba(0, 0, 0, 0.4) !important;
+}
+* {
+  scrollbar-color: #3a86ff rgba(0, 0, 0, 0.4);
+}
+
+/* ---------- 10. GUILD ICONS - blue glow on hover ---------- */
+[class*=\"guildIcon\"], [class*=\"wrapper\"], [class*=\"listItem\"] {
+  transition: transform 0.2s, filter 0.2s;
+}
+[class*=\"guildIcon\"]:hover, [class*=\"wrapper\"]:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 6px #3a86ff);
+}
+
+/* ---------- 11. MODALS, POPOUTS, TOOLTIPS ---------- */
+.modal, .popout, .tooltip, .userPopout, [class*=\"popover\"],
+[class*=\"menu\"], [class*=\"dropdown\"], [class*=\"options\"],
+[class*=\"layerContainer\"] [class*=\"container\"] {
+  background-color: rgba(10, 10, 12, 0.96) !important;
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(58, 134, 255, 0.3);
+  border-radius: 8px;
+}
+
+/* ---------- 12. INPUT FIELDS & TEXTAREAS ---------- */
+input, textarea, select, [class*=\"input\"], [class*=\"field\"],
+[class*=\"textArea\"]:not([class*=\"channelTextArea\"]) {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  color: #FFFFFF !important;
+  border-color: rgba(58, 134, 255, 0.5) !important;
+  border-radius: 6px;
+}
+input:focus, textarea:focus, select:focus {
+  border-color: #3a86ff !important;
+  box-shadow: 0 0 4px #3a86ff;
+}
+
+/* ---------- 13. LINKS ---------- */
+a, [class*=\"link\"], [class*=\"anchor\"] {
+  color: #3a86ff !important;
+  text-decoration: none;
+}
+a:hover, [class*=\"link\"]:hover {
+  color: #7cb5ff !important;
+  text-decoration: underline;
+}
+
+/* ---------- 14. CHANNEL LIST - blue category names, hash icons ---------- */
+[class*=\"channelName\"], [class*=\"categoryName\"], [class*=\"nameDefaultText\"] {
+  color: #FFFFFF !important;
+}
+[class*=\"channelName\"]:hover, [class*=\"categoryName\"]:hover {
+  color: #3a86ff !important;
+}
+[class*=\"icon\"][class*=\"hash\"], [class*=\"prefix\"] {
+  color: #3a86ff !important;
+}
+
+/* ---------- 15. MEMBER LIST & ACTIVITY ---------- */
+[class*=\"member\"]:hover, [class*=\"activity\"] {
+  background-color: rgba(58, 134, 255, 0.1) !important;
+}
+[class*=\"avatar\"]:hover {
+  filter: drop-shadow(0 0 4px #3a86ff);
+}
+
+/* ---------- 16. STATUS INDICATORS (blue online) ---------- */
+[class*=\"statusOnline\"], [class*=\"statusStreaming\"] {
+  background-color: #3a86ff !important;
+}
+[class*=\"statusIdle\"] {
+  background-color: #faeb64 !important;
+}
+[class*=\"statusDND\"] {
+  background-color: #f83838 !important;
+}
+[class*=\"statusOffline\"] {
+  background-color: #AAAAAA !important;
+}
+
+/* ---------- 17. REACTION BUTTONS ---------- */
+[class*=\"reaction\"], [class*=\"reactionInner\"] {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  border-color: rgba(58, 134, 255, 0.3) !important;
+}
+[class*=\"reaction\"]:hover {
+  background-color: rgba(58, 134, 255, 0.2) !important;
+  border-color: #3a86ff !important;
+}
+
+/* ---------- 18. CONTEXT MENUS ---------- */
+[class*=\"contextMenu\"] [class*=\"item\"]:hover {
+  background-color: rgba(58, 134, 255, 0.2) !important;
+}
+[class*=\"contextMenu\"] [class*=\"dangerItem\"]:hover {
+  background-color: rgba(248, 56, 56, 0.2) !important;
+}
+
+/* ---------- 19. EMBEDS & ATTACHMENTS ---------- */
+[class*=\"embed\"], [class*=\"attachment\"] {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+  border-left: 4px solid #3a86ff !important;
+  border-radius: 8px;
+}
+[class*=\"embedTitle\"] {
+  color: #3a86ff !important;
+}
+
+/* ---------- 20. TOAST NOTIFICATIONS ---------- */
+[class*=\"toast\"], [class*=\"snackbar\"] {
+  background-color: rgba(10, 10, 12, 0.95) !important;
+  border: 1px solid #3a86ff;
+}
+
+/* ---------- 21. VOICE CHANNEL CONTROLS ---------- */
+[class*=\"voiceUser\"]:hover, [class*=\"voiceChannel\"]:hover {
+  background-color: rgba(58, 134, 255, 0.15) !important;
+}
+[class*=\"voiceState\"] [class*=\"button\"]:hover {
+  color: #3a86ff !important;
+}
+
+/* ---------- 22. SPOILER TAGS ---------- */
+[class*=\"spoilerHidden\"] {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+[class*=\"spoilerRevealed\"] {
+  background-color: rgba(40, 40, 45, 0.7) !important;
+}
+
+/* ---------- 23. MESSAGE ACTION BUTTONS ---------- */
+[class*=\"messageActions\"] [class*=\"button\"] {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  border-radius: 4px;
+}
+[class*=\"messageActions\"] [class*=\"button\"]:hover {
+  background-color: #3a86ff !important;
+}
+
+/* ---------- 24. CALL / VIDEO CONTROLS ---------- */
+[class*=\"callContainer\"] [class*=\"button\"]:hover {
+  background-color: #3a86ff !important;
+}
+
+/* ---------- 25. DISCOVERY & SHOP ---------- */
+[class*=\"guildsDiscovery\"], [class*=\"shop\"] {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+}
+
+/* ---------- 26. TYPING INDICATOR (blue pulse) ---------- */
+[class*=\"typing\"] {
+  color: #3a86ff !important;
+}
+[class*=\"typingDots\"] {
+  background-color: #3a86ff !important;
+}
+
+/* ---------- 27. BADGES (unread, mentions) ---------- */
+[class*=\"badge\"], [class*=\"unread\"], [class*=\"mentionBadge\"] {
+  background-color: #3a86ff !important;
+  color: white !important;
+}
+[class*=\"unread\"] {
+  background-color: #3a86ff !important;
+}
+
+/* ---------- 28. SEARCH BAR ---------- */
+[class*=\"searchBar\"] {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  border: 1px solid rgba(58, 134, 255, 0.5) !important;
+}
+[class*=\"searchBar\"]:focus-within {
+  border-color: #3a86ff !important;
+}
+
+/* ---------- 29. USER SETTINGS MODAL ---------- */
+[class*=\"standardSidebarView\"] {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+}
+[class*=\"settingsTab\"]:hover {
+  background-color: rgba(58, 134, 255, 0.15) !important;
+}
+[class*=\"settingsTab\"][class*=\"selected\"] {
+  background-color: #3a86ff !important;
+  color: white !important;
+}
+
+/* ---------- 30. NOTIFICATION POPUPS ---------- */
+[class*=\"notification\"] {
+  background-color: rgba(10, 10, 12, 0.95) !important;
+  border-left: 4px solid #3a86ff;
+}
+
+/* ---------- 31. SELECT MENU DROPDOWNS ---------- */
+[class*=\"select\"] [class*=\"option\"]:hover {
+  background-color: rgba(58, 134, 255, 0.2) !important;
+}
+[class*=\"selectedValue\"] {
+  color: #3a86ff !important;
+}
+
+/* ---------- 32. DATE SEPARATORS IN CHAT ---------- */
+[class*=\"divider\"] span {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  color: #3a86ff !important;
+}
+
+/* ---------- 33. LOADING SPINNERS ---------- */
+[class*=\"spinner\"] circle {
+  stroke: #3a86ff !important;
+}
+
+/* ---------- 34. INVITE BUTTON ---------- */
+[class*=\"inviteButton\"] {
+  background-color: #3a86ff !important;
+}
+[class*=\"inviteButton\"]:hover {
+  background-color: #0050b3 !important;
+}
+
+/* ---------- 35. FRIENDS LIST & DM LIST ---------- */
+[class*=\"friendsTable\"], [class*=\"peopleList\"] {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+[class*=\"friend\"]:hover {
+  background-color: rgba(58, 134, 255, 0.15) !important;
+}
+
+/* ---------- 36. STAGE CHANNELS ---------- */
+[class*=\"stage\"] [class*=\"speaker\"]:hover {
+  background-color: rgba(58, 134, 255, 0.15) !important;
+}
+
+/* ---------- 37. THREADS ---------- */
+[class*=\"threadIcon\"] {
+  color: #3a86ff !important;
+}
+[class*=\"thread\"]:hover {
+  background-color: rgba(58, 134, 255, 0.1) !important;
+}
+
+/* ---------- 38. QUICK SWITCHER (Ctrl+K) ---------- */
+[class*=\"quickswitcher\"] {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  border: 1px solid #3a86ff;
+}
+[class*=\"result\"]:hover {
+  background-color: rgba(58, 134, 255, 0.2) !important;
+}
+
+/* ---------- 39. ROLE PILLS ---------- */
+[class*=\"rolePill\"] {
+  background-color: rgba(58, 134, 255, 0.2) !important;
+  border: 1px solid #3a86ff;
+}
+
+/* ---------- 40. FINAL SAFETY: ENSURE NOTHING IS INVISIBLE ---------- */
+* {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+",
   "spec": 2
 }
